@@ -11,3 +11,7 @@ def test_subtract():
 
 def test_divide():
     assert divide(10, 2) == 5
+
+
+def test_divide_by_zero_returns_none():
+    assert divide(10, 0) is None
